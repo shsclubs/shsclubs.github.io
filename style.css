@@ -1,0 +1,192 @@
+/*SHS website colors: background=white, accent=maroon, text=white on maroon or smoke on white*/
+/*Some stuff to add or change: fonts (can be from Google Fonts), differentiate h1/h2/etc. by more than size, floating headers/images*/
+
+body {
+  background-color:#f8f8f8;
+  padding: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button {
+  background-color: #333c4e;
+  border: none;
+  font-size: 18px;
+  padding: 4px;
+  margin: 3px;
+  color: white;
+  border-radius: 4px;
+  transition-duration:0.4s;
+}
+
+button:hover {
+  background-color: goldenrod;
+  color: #333c4e;
+}
+
+.update, footer {
+  margin-right: 10%;
+  margin-left:10%;
+  margin-top:10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  color: white;
+  background-color: maroon;
+  padding: 10px;
+}
+
+#clubSchedule {
+  margin-right: 10%;
+  margin-left:10%;
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+
+footer, #GWC {
+  text-align: center;
+}
+
+
+#updateHeader {
+  margin-right: 10%;
+  margin-left:10%;
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+
+.updates h3, footer h3 {
+  color: gold;
+  padding: 0px;
+  margin: 0px;
+  font-size: 24px;
+}
+.updates p, footer p {
+  padding: 0px;
+  margin: 0px;
+  font-size: 16px;
+}
+.update small, footer small {
+  margin-bottom: 3px;
+}
+
+nav h4 a {
+  color: maroon;
+  font-size: 20px;
+  margin-bottom:0px;
+}
+#title {
+  text-align: center;
+}
+.subtitle {
+  text-align: center;
+  color: gray
+}
+.calendar {
+  background-color:gray;
+  /*This doesn't actually do anything once the calendar loads, the calendar may register as an image, but we may be able to change how the calendar looks*/
+}
+
+nav {
+  width: 220px;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  left: 10px;
+  overflow-x: hidden;
+  padding-right: 8px 0;
+  border-right: solid maroon 2px;
+  height: 100%;
+}
+
+#eagle {
+  width: 210px;
+  margin-right: 10px;
+}
+.main {
+  margin-left: 220px;
+  padding: 0px 10px;
+}
+
+.mobileNav {
+  display: None;
+}
+
+footer a, footer a:visited, footer a:hover, footer .links, .update a, .update a:visited, .update a:hover {
+  color: gold;
+}
+
+.subtitle a, .subtitle a:hover, .subtitle a:visited {
+  color: maroon;
+}
+
+@media only screen and (max-width: 700px) {
+  nav {
+    position: relative;
+    border-right: none;
+    border-bottom: solid maroon 2px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    left: 0px;
+  }
+  .main {
+    margin-left:0px;
+  }
+  .update, footer, #clubSchedule {
+    margin: 3px;
+  }
+  .calendar {
+    max-width: 100%;
+  }
+  nav {
+    display: none;
+  }
+  .mobileNav {
+    display: contents;
+    text-align: center;
+  }
+  #updateHeader {
+    padding-left: 0;
+    margin-left: 0;
+  }
+}
+
+#myBtn {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 1;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 4px;
+  display: block;
+  background-color: gold;
+  color: maroon;
+}
+
+#clubsList h3 {
+  color: maroon;
+}
+
+#clubsList {
+  background-color: gold;
+}
+
+#clubsList p {
+  color: black;
+}
+
+#mm, #ma, #tm, #ta, #wm, #wa, #hm, #ha, #fm, #fa, #other {
+  background-color: gold;
+  color: maroon;
+  padding: 6px;
+  border-radius: 3px;
+}
+
+.icon-chevron-up, .icon-chevron-down {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.collapsed {
+  display: none !important;
+}
+
