@@ -2,7 +2,7 @@
 /*Some stuff to add or change: fonts (can be from Google Fonts), differentiate h1/h2/etc. by more than size, floating headers/images*/
 
 body {
-  background-color:#f8f8f8;
+  background-color:#ffffff;
   padding: 10px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -117,6 +117,10 @@ footer a, footer a:visited, footer a:hover, footer .links, .update a, .update a:
   color: maroon;
 }
 
+.eaglem {
+  display: none;
+}
+
 @media only screen and (max-width: 700px) {
   nav {
     position: relative;
@@ -143,9 +147,18 @@ footer a, footer a:visited, footer a:hover, footer .links, .update a, .update a:
     display: contents;
     text-align: center;
   }
+  .eaglem {
+    display: contents;
+  }
   #updateHeader {
     padding-left: 0;
     margin-left: 0;
+  }
+  #eagle {
+    width: 100%;
+  }
+  h1 {
+    text-align: center;
   }
 }
 
@@ -174,7 +187,7 @@ footer a, footer a:visited, footer a:hover, footer .links, .update a, .update a:
   color: black;
 }
 
-#mm, #ma, #tm, #ta, #wm, #wa, #hm, #ha, #fm, #fa, #other {
+#mm, #ma, #tm, #ta, #wm, #wa, #hm, #ha, #fm, #fa, #oa {
   background-color: gold;
   color: maroon;
   padding: 6px;
@@ -190,3 +203,6 @@ footer a, footer a:visited, footer a:hover, footer .links, .update a, .update a:
   display: none !important;
 }
 
+p a, p a:hover, p a:visited {
+  color: maroon;
+}
