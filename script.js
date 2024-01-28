@@ -12,18 +12,18 @@
 
 
 urlToCat = {
-  "Athletic": "athletic.html",
-  "Culture": "culturalAndIdentity.html",
-  "Entertainment": "entertainment.html",
-  "Health": "health.html",
-  "Humanities": "humanities.html",
-  "Leadership": "leadershipspeaking.html",
-  "Misc": "miscellaneous.html",
-  "Performing": "performingArts.html",
-  "Pre-Professional": "preprofessional.html",
-  "Social Change": "socialChange.html",
-  "STEM": "stem.html",
-  "Visual": "visualArts.html"
+  "Athletic": "athletic",
+  "Culture": "culturalAndIdentity",
+  "Entertainment": "entertainment",
+  "Health": "health",
+  "Humanities": "humanities",
+  "Leadership": "leadershipspeaking",
+  "Misc": "miscellaneous",
+  "Performing": "performingArts",
+  "Pre-Professional": "preprofessional",
+  "Social Change": "socialChange",
+  "STEM": "stem",
+  "Visual": "visualArts"
 }
 
 function populateClubs(day){
