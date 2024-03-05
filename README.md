@@ -38,28 +38,28 @@ To add a club, open a [new issue]() with the following information:
 
 ## Board
 
-President: Apurva Varigonda '24
-Vice President: Daniela Yablon '25
-Secretary/Treasurer: Jenny Sand '25
-Communications Director: Jessica Li '26
-President (2020-22): Zoe Plumridge '22
-Vice President (2020-22): Arthi Vijayakumar '22
-Communications Director (2022-23): Ankita Varigonda '25
+- President: Apurva Varigonda '24
+- Vice President: Daniela Yablon '25
+- Secretary/Treasurer: Jenny Sand '25
+- Communications Director: Jessica Li '26
+- President (2020-22): Zoe Plumridge '22
+- Vice President (2020-22): Arthi Vijayakumar '22
+- Communications Director (2022-23): Ankita Varigonda '25
 
 ## Members & Contributors
 
-Veena Krishnan '22
-Yeonhee Lee '24
-Anna Voronova '24
-Gabrielle Sufrin '24
-Emily Zhang '25
-Marena Chen '25
-Emma Liu '26
-Saachi Badgi '26
-Unnimaya Sajeev '26
-Anvi Sarmah '27
-Eesha Agarwal '27
-Sampreetha Sriram '27
-Sanjana Sanooj '27
-Zaara Ahmad '27
-Zoe Guo '27
+- Veena Krishnan '22
+- Yeonhee Lee '24
+- Anna Voronova '24
+- Gabrielle Sufrin '24
+- Emily Zhang '25
+- Marena Chen '25
+- Emma Liu '26
+- Saachi Badgi '26
+- Unnimaya Sajeev '26
+- Anvi Sarmah '27
+- Eesha Agarwal '27
+- Sampreetha Sriram '27
+- Sanjana Sanooj '27
+- Zaara Ahmad '27
+- Zoe Guo '27
