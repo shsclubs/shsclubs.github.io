@@ -5,7 +5,7 @@ A collection of clubs at Sharon High School.
 ## Table of Contents
 
 - [Academic](https://shsclubs.github.io/academic)
-  = [Athletic](https://shsclubs.github.io/athletic)
+- [Athletic](https://shsclubs.github.io/athletic)
 - [Cultural and Identity](https://shsclubs.github.io/culturalAndIdentity)
 - [Entertainment](https://shsclubs.github.io/entertainment)
 - [Health](https://shsclubs.github.io/health)
@@ -23,7 +23,7 @@ A collection of clubs at Sharon High School.
 
 ## Contributing
 
-To add a club, please submit a [pull request]() with the following information:
+To add a club, open a [new issue]() with the following information:
 
 - Name of Club
 - Nickname

@@ -1,0 +1,123 @@
+name: "New Club"
+description: "Suggest a new club to be added to the website"
+title: "New Club Suggestion"
+labels: "new club"
+body:
+  - type: input
+    id: word
+    attributes:
+      label: Word
+      description: "What is the name of your club"
+      placeholder: "Club Name"
+    validations:
+      required: true
+  - type: input
+    id: nickname
+    attributes:
+      label: Nickname
+      description: "A short Nickname for your club"
+      placeholder: "Club Nickname"
+    validations:
+      required: false
+  - type: input
+    id: date
+    attributes:
+      label: Date
+      description: "Days of the week and time your club meets (separated by commas)"
+      placeholder: "Monday 3:00-4:00, Wednesday 3:00-4:00, Friday 3:00-4:00"
+    validations:
+      required: true
+  - type: dropdown
+    id: club_type_1
+    attributes:
+      label: Club Type 1
+      options:
+        - Academic
+        - Athletic
+        - Cultural and Identity
+        - Entertainment
+        - Health
+        - Humanities
+        - Leadership
+        - Leadership Speaking
+        - Literature
+        - Miscellaneous
+        - Performing Arts
+        - Pre-Professional
+        - Public Speaking
+        - Social Change
+        - STEM
+        - Visual Arts
+    validations:
+      required: true
+  - type: dropdown
+    id: club_type_2
+    attributes:
+      label: Club Type 2
+      options:
+        - Academic
+        - Athletic
+        - Cultural and Identity
+        - Entertainment
+        - Health
+        - Humanities
+        - Leadership
+        - Leadership Speaking
+        - Literature
+        - Miscellaneous
+        - Performing Arts
+        - Pre-Professional
+        - Public Speaking
+        - Social Change
+        - STEM
+        - Visual Arts
+    validations:
+      required: false
+  - type: dropdown
+    id: time_type
+    attributes:
+      label: Morning or Afternoon
+      options:
+        - Morning
+        - Afternoon
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: "A brief description of your club (1-2 sentences)"
+    validations:
+      required: true
+  - type: input
+    id: club_advisor
+    attributes:
+      label: Club Advisor
+      description: "The name of the club advisor (a teacher or staff member)"
+      placeholder: "Advisor Name"
+    validations:
+      required: true
+  - type: input
+    id: student_contact
+    attributes:
+      label: Student Contact
+      description: "Name and Email of the student who will be the club contact"
+      placeholder: "John Doe (jdoe2025@sharonschools.net)"
+    validations:
+      required: true
+  - type: input
+    id: room
+    attributes:
+      label: Room
+      description: "The room number where your club meets"
+      placeholder: "Room 1234"
+    validations:
+      required: true
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: Before submitting this issue
+      options:
+        - label: |
+            This is a real club, and is not already in the website.
+          required: true
