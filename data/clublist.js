@@ -14,6 +14,37 @@
  * Miscellaneous
  */
 
+export function convertCategoryNameToPrettyName(category) {
+  switch (category) {
+    case "Academic":
+      return "Academics";
+    case "Cultural and Identity":
+      return "Culture and Identity";
+    case "Performing Arts":
+      return "Performing Arts";
+    case "Visual Arts":
+      return "Visual Arts";
+    case "Literature":
+      return "Literature";
+    case "Social Change":
+      return "Social Change";
+    case "Public Speaking":
+      return "Public Speaking";
+    case "Leadership":
+      return "Leadership";
+    case "Pre-professional":
+      return "Pre-professional";
+    case "Athletic":
+      return "Athletics";
+    case "Entertainment":
+      return "Entertainment";
+    case "Miscellaneous":
+      return "Miscellaneous";
+    default:
+      return "Miscellaneous";
+  }
+}
+
 const clubList = [
   {
     name: "American Civil Liberties Union",

@@ -1,7 +1,15 @@
-import clubList from "./data/clubList.js";
+import clubList, { convertCategoryNameToPrettyName } from "./data/clubList.js";
 
+const pageName = document.getElementById("page-name");
+const pageDescription = document.getElementById("page-description");
 const clubDiv = document.getElementById("clubs");
 const buttonDiv = document.getElementById("buttons");
+
+function updatePageNameAndDescription(category) {
+  const prettyName = convertCategoryNameToPrettyName(category);
+  pageName.innerHTML = prettyName;
+  pageDescription.innerHTML = "Clubs to learn about " + prettyName + ".";
+}
 
 function addClub(club) {
   let button =
@@ -21,6 +29,7 @@ function addClub(club) {
 function buildPage() {
   const category = getCategoryFromURL();
   if (!category) return;
+  updatePageNameAndDescription(category);
 
   for (let i = 0; i < clubList.length; i++) {
     let club = clubList[i];

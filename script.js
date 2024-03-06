@@ -1,3 +1,5 @@
+import clubList from "./data/clubList.js";
+
 //An example of how to do dropdown menus
 
 /*$("#button-container button").on("click", function(event) {
@@ -10,23 +12,6 @@
   }
 });*/
 
-import clubList from "./data/clubList.js";
-
-urlToCat = {
-  Athletic: "athletic",
-  Culture: "culturalAndIdentity",
-  Entertainment: "entertainment",
-  Health: "health",
-  Humanities: "humanities",
-  Leadership: "leadershipspeaking",
-  Misc: "miscellaneous",
-  Performing: "performingArts",
-  "Pre-Professional": "preprofessional",
-  "Social Change": "socialChange",
-  STEM: "stem",
-  Visual: "visualArts"
-};
-
 function populateClubs(day) {
   const dayId = day + "aclubs";
   const aft = document.getElementById(dayId);
@@ -34,8 +19,8 @@ function populateClubs(day) {
     let club = clubList[i];
     if (club.mtg === day) {
       aft.innerHTML +=
-        '<a href="' +
-        urlToCat[club.type1] +
+        '<a href="clubs?category=' +
+        club.type1 +
         "#" +
         club.nick +
         '">' +
