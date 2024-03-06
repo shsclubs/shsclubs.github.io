@@ -1,0 +1,16 @@
+{
+  "name": "shsclubs",
+  "version": "1.0.0",
+  "description": "List of SHS clubs",
+  "main": "populate.js",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shsclubs/shsclubs.github.io"
+  },
+  "keywords": [],
+  "author": "shsclubs",
+  "license": "ISC",
+  "homepage": "https://shsclubs.github.io/index",
+  "type": "module"
+}

@@ -1,5 +1,7 @@
-clubDiv = document.getElementById("clubs");
-buttonDiv = document.getElementById("buttons");
+import clubList from "./data/clubList.js";
+
+const clubDiv = document.getElementById("clubs");
+const buttonDiv = document.getElementById("buttons");
 
 function addClub(club) {
   let button =
@@ -14,13 +16,14 @@ function addClub(club) {
   let text = name + desc + adv + stucon + meetingdays + loc;
   clubDiv.innerHTML += text;
   buttonDiv.innerHTML += button;
-  console.log(button);
-  console.log(name);
 }
 
-function buildPage(category) {
-  for (i = 0; i < clublist.length; i++) {
-    let club = clublist[i];
+function buildPage() {
+  const category = getCategoryFromURL();
+  if (!category) return;
+
+  for (let i = 0; i < clubList.length; i++) {
+    let club = clubList[i];
     if (club.type1 === category) {
       addClub(club);
     } else if (club.type2 === category) {
@@ -28,3 +31,16 @@ function buildPage(category) {
     }
   }
 }
+
+function getCategoryFromURL() {
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  const category = urlParams.get("category");
+  return category;
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+  buildPage();
+});
+
+buildPage();
