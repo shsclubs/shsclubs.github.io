@@ -2,7 +2,7 @@
 /*Some stuff to add or change: fonts (can be from Google Fonts), differentiate h1/h2/etc. by more than size, floating headers/images*/
 
 body {
-  background-color:#ffffff;
+  background-color: #ffffff;
   padding: 10px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -14,7 +14,7 @@ button {
   margin: 3px;
   color: white;
   border-radius: 4px;
-  transition-duration:0.4s;
+  transition-duration: 0.4s;
 }
 
 button:hover {
@@ -22,10 +22,11 @@ button:hover {
   color: #333c4e;
 }
 
-.update, footer {
+.update,
+footer {
   margin-right: 10%;
-  margin-left:10%;
-  margin-top:10px;
+  margin-left: 10%;
+  margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 8px;
   color: white;
@@ -35,52 +36,55 @@ button:hover {
 
 #clubSchedule {
   margin-right: 10%;
-  margin-left:10%;
-  margin-top:10px;
+  margin-left: 10%;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
-footer, #GWC {
+footer,
+#GWC {
   text-align: center;
 }
 
-
 #updateHeader {
   margin-right: 10%;
-  margin-left:10%;
-  margin-top:10px;
+  margin-left: 10%;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
-.updates h3, footer h3 {
+.updates h3,
+footer h3 {
   color: gold;
   padding: 0px;
   margin: 0px;
   font-size: 24px;
 }
-.updates p, footer p {
+.updates p,
+footer p {
   padding: 0px;
   margin: 0px;
   font-size: 16px;
 }
-.update small, footer small {
+.update small,
+footer small {
   margin-bottom: 3px;
 }
 
 nav h4 a {
   color: maroon;
   font-size: 20px;
-  margin-bottom:0px;
+  margin-bottom: 0px;
 }
 #title {
   text-align: center;
 }
 .subtitle {
   text-align: center;
-  color: gray
+  color: gray;
 }
 .calendar {
-  background-color:gray;
+  background-color: gray;
   /*This doesn't actually do anything once the calendar loads, the calendar may register as an image, but we may be able to change how the calendar looks*/
 }
 
@@ -109,11 +113,19 @@ nav {
   display: None;
 }
 
-footer a, footer a:visited, footer a:hover, footer .links, .update a, .update a:visited, .update a:hover {
+footer a,
+footer a:visited,
+footer a:hover,
+footer .links,
+.update a,
+.update a:visited,
+.update a:hover {
   color: gold;
 }
 
-.subtitle a, .subtitle a:hover, .subtitle a:visited {
+.subtitle a,
+.subtitle a:hover,
+.subtitle a:visited {
   color: maroon;
 }
 
@@ -132,9 +144,11 @@ footer a, footer a:visited, footer a:hover, footer .links, .update a, .update a:
     left: 0px;
   }
   .main {
-    margin-left:0px;
+    margin-left: 0px;
   }
-  .update, footer, #clubSchedule {
+  .update,
+  footer,
+  #clubSchedule {
     margin: 3px;
   }
   .calendar {
@@ -187,14 +201,25 @@ footer a, footer a:visited, footer a:hover, footer .links, .update a, .update a:
   color: black;
 }
 
-#mm, #ma, #tm, #ta, #wm, #wa, #hm, #ha, #fm, #fa, #oa {
+#mm,
+#ma,
+#tm,
+#ta,
+#wm,
+#wa,
+#hm,
+#ha,
+#fm,
+#fa,
+#oa {
   background-color: gold;
   color: maroon;
   padding: 6px;
   border-radius: 3px;
 }
 
-.icon-chevron-up, .icon-chevron-down {
+.icon-chevron-up,
+.icon-chevron-down {
   margin-left: 5px;
   margin-right: 5px;
 }
@@ -203,6 +228,19 @@ footer a, footer a:visited, footer a:hover, footer .links, .update a, .update a:
   display: none !important;
 }
 
-p a, p a:hover, p a:visited {
+p a,
+p a:hover,
+p a:visited {
   color: maroon;
+}
+
+.club {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.odd-club {
+  background-color: #f6f6f6;
 }
