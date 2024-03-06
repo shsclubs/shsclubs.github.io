@@ -1,18 +1,17 @@
 /**
  * all current categories:
- *
+ * Academic
+ * Cultural and Identity
+ * Performing Arts
+ * Visual Arts
+ * Literature
  * Social Change
- * Health
- * Visual
- * Culture
- * Humanities
- * Athletic
- * STEM
- * Performing
+ * Public Speaking
  * Leadership
+ * Pre-professional
+ * Athletic
  * Entertainment
- * Pre-Professional
- * Misc
+ * Miscellaneous
  */
 
 const clubList = [

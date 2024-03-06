@@ -32,18 +32,18 @@ body:
     attributes:
       label: Club Type 1
       options:
+        - Academic
+        - Cultural and Identity
+        - Performing Arts
+        - Visual Arts
+        - Literature
         - Social Change
-        - Health
-        - Visual
-        - Culture
-        - Humanities
-        - Athletic
-        - STEM
-        - Performing
+        - Public Speaking
         - Leadership
+        - Pre-professional
+        - Athletic
         - Entertainment
-        - Pre-Professional
-        - Misc
+        - Miscellaneous
     validations:
       required: true
   - type: dropdown
@@ -51,18 +51,18 @@ body:
     attributes:
       label: Club Type 2
       options:
+        - Academic
+        - Cultural and Identity
+        - Performing Arts
+        - Visual Arts
+        - Literature
         - Social Change
-        - Health
-        - Visual
-        - Culture
-        - Humanities
-        - Athletic
-        - STEM
-        - Performing
+        - Public Speaking
         - Leadership
+        - Pre-professional
+        - Athletic
         - Entertainment
-        - Pre-Professional
-        - Misc
+        - Miscellaneous
     validations:
       required: false
   - type: dropdown
