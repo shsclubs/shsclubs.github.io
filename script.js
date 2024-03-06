@@ -19,7 +19,7 @@ function populateClubs(day) {
     let club = clubList[i];
     if (club.mtg === day) {
       aft.innerHTML +=
-        '<a href="clubs?category=' +
+        '<a href="clubs.html?category=' +
         club.type1 +
         "#" +
         club.nick +
