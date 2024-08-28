@@ -1,6 +1,4 @@
-/* 1. Convert csv to json using https://csvjson.com/csv2json 
-   2. Replace the array */
-var clublist = [
+[
   {
     "name": "American Civil Liberties Union",
     "nick": "ACLU",
@@ -26,6 +24,19 @@ var clublist = [
     "adv": "Mr. Christansen",
     "stucon": "Aishu Saravanan (asaravanan2025@sharonschools.net), Sahana Bharadwaj (sbharadwaj2025@sharonschools.net), Shruti Senthil (ssenthil@sharonschools.net)",
     "loc": "Breakout Room"
+  },
+  {
+    "name": "American Sign Language Club",
+    "nick": "ASL Club",
+    "meetingdays": "Thursdays",
+    "type1": "Culture",
+    "type2": "",
+    "mtg": "h",
+    "morning": "",
+    "desc": "ASL club uses our time to educate our members about various signs, structure, and deaf culture",
+    "adv": "Ms. Ashwell",
+    "stucon": "Budhivali Rakieten (brakieten2024@sharonschools.net), Pin Southard (psouthard2024@sharonschools.net)",
+    "loc": 2509
   },
   {
     "name": "Anti-Defamation League",
@@ -88,9 +99,9 @@ var clublist = [
     "mtg": "f",
     "morning": "",
     "desc": "We read and discuss books (chosen by members) with a breakfast of bagels! We also offer volunteer opportunities through the library and are planning on hosting occasional movie nights!",
-    "adv": "Ms. Kerr",
+    "adv": "Ms. Pokaski",
     "stucon": "Emily Whitney (ewhitney2024@sharonschools.net), Maddie Zimbalist (mzimbalist@sharonschools.net)",
-    "loc": 2411
+    "loc": 1409
   },
   {
     "name": "Boxing Club",
@@ -120,16 +131,16 @@ var clublist = [
   },
   {
     "name": "Care4Kiddos",
-    "nick": "Care4Kiddos",
+    "nick": "C4K",
     "meetingdays": "Tuesdays",
     "type1": "Social Change",
     "type2": "",
     "mtg": "t",
     "morning": "",
     "desc": "Dedicated to fight against domestic abuse",
-    "adv": "Not Listed",
+    "adv": "Mr. Judkins",
     "stucon": "Antara Padwal (apadwal2026@sharonschools.net), Lynn El Abyad (lelabyad2026@sharonschools.net)",
-    "loc": "TBD"
+    "loc": 1508
   },
   {
     "name": "Chemistry Club",
@@ -340,6 +351,19 @@ var clublist = [
     "loc": 1301
   },
   {
+    "name": "Eagle News",
+    "nick": "Eagle News",
+    "meetingdays": "Days B, D, F during AcES",
+    "type1": "Visual",
+    "type2": "",
+    "mtg": "o",
+    "morning": 1,
+    "desc": "Eagle News produces live streams for morning announcements for the school and community every other day.",
+    "adv": "Mr. Acone",
+    "stucon": "Max Mevs (mmevs2025@sharonschools.net), Sienna Rich (srich2025@sharonschools.net)",
+    "loc": "Television Studio"
+  },
+  {
     "name": "Environmental Club",
     "nick": "Environmental Club",
     "meetingdays": "Mondays",
@@ -379,6 +403,19 @@ var clublist = [
     "loc": 1306
   },
   {
+    "name": "Fishing Club",
+    "nick": "Fishing",
+    "meetingdays": "Fridays",
+    "type1": "Athletic",
+    "type2": "",
+    "mtg": "f",
+    "morning": "",
+    "desc": "Club where students can enjoy the nature of Lake Massapoag while being able to learn the critical skills of fishing and having fun with their friends.",
+    "adv": "Mr. Christiansen",
+    "stucon": "Theo Tran (ttran2024@sharonschools.net), Arthur Do (ado2025@sharonschools.net)",
+    "loc": "Gym Closet"
+  },
+  {
     "name": "Game Dev Club",
     "nick": "Game Dev Club",
     "meetingdays": "Wednesdays",
@@ -390,6 +427,19 @@ var clublist = [
     "adv": "Mr. Kamocsay",
     "stucon": "Soyun Lee (solee2026@sharonschools.net), Leah Danilkovas (ldanilkovas2026@sharonschools.net)",
     "loc": 1264
+  },
+  {
+    "name": "Games Club",
+    "nick": "Games",
+    "meetingdays": "Wednesdays",
+    "type1": "Entertainment",
+    "type2": "",
+    "mtg": "w",
+    "morning": "",
+    "desc": "Games Club is a space for board games and hanging out after school. We play a wide variety of games and always encourage folks to bring their own!",
+    "adv": "Ms. Cohen",
+    "stucon": "No student contacts",
+    "loc": 1509
   },
   {
     "name": "Gender Sexuality Alliance",
@@ -628,13 +678,13 @@ var clublist = [
   {
     "name": "Muslim Student Association",
     "nick": "MSA",
-    "meetingdays": "Tuesdays",
+    "meetingdays": "Thursdays",
     "type1": "Culture",
     "type2": "Social Change",
-    "mtg": "t",
+    "mtg": "h",
     "morning": "",
     "desc": "We are a club focused on creating a space for Muslim students and staff at SHS. Beyond that, our club also work to fundraise, host events, donate to charity, and raise awareness for causes involving Muslims.",
-    "adv": "Mr. Banno, Ms. Pokaski",
+    "adv": "Mr. Banno",
     "stucon": "Ashaz Chowdhury (achowdhury2024@sharonschools.net), Samah Hamid (shamid2024@sharonschools.net), Zobia Imam (zimam2024@sharonschools.net), Rania Khan (rkhan2024@sharonschools.net), Faryal Qadri (sqadri2024@sharonschools.net)",
     "loc": 1311
   },
@@ -700,8 +750,8 @@ var clublist = [
     "morning": "",
     "desc": "By joining this club, you'll have access to a community of photographers who can offer feedback and support on your work, as well as provide opportunities to collaborate on projects and share resources. Our latest project has been working with darkroom photography! We're taking photos with film cameras and developing them ourselves!",
     "adv": "Mr. Van Beckum",
-    "stucon": "Nishka Joshi (njoshi2024@sharonschools.net)",
-    "loc": 2245
+    "stucon": "Nishka Joshi (njoshi2024@sharonschools.net), Anthony Hosu (ahosu2024@shaaronschools.net)",
+    "loc": 2254
   },
   {
     "name": "Physics Club",
@@ -783,7 +833,7 @@ var clublist = [
   },
   {
     "name": "Science Olympiad",
-    "nick": "Sci Oly",
+    "nick": "SciOly",
     "meetingdays": "Tuesdays, (optional) Thursdays",
     "type1": "STEM",
     "type2": "",
@@ -860,21 +910,8 @@ var clublist = [
     "loc": 2407
   },
   {
-    "name": "Soda Club",
-    "nick": "SODA",
-    "meetingdays": "Thursdays",
-    "type1": "Health",
-    "type2": "",
-    "mtg": "h",
-    "morning": "",
-    "desc": "The SODA club raises awareness about organ donation, as well as registers students to become organ donors.",
-    "adv": "Ms. Jolicouer",
-    "stucon": "Kiran Koster (kkoster2025@sharonschools.net)",
-    "loc": "Foyer"
-  },
-  {
     "name": "Spanish Volunteer Club",
-    "nick": "Spanish Volunteer",
+    "nick": "Spanish Club",
     "meetingdays": "Tuesdays",
     "type1": "Social Change",
     "type2": "",
@@ -886,7 +923,7 @@ var clublist = [
     "loc": 2509
   },
   {
-    "name": "Speech",
+    "name": "Speech Club",
     "nick": "Speech",
     "meetingdays": "Mondays, Fridays",
     "type1": "Leadership",
@@ -938,6 +975,19 @@ var clublist = [
     "loc": "Counseling Suite"
   },
   {
+    "name": "Student Organ Donation Awareness",
+    "nick": "SODA",
+    "meetingdays": "Thursdays",
+    "type1": "Health",
+    "type2": "",
+    "mtg": "h",
+    "morning": "",
+    "desc": "The SODA club raises awareness about organ donation, as well as registers students to become organ donors.",
+    "adv": "Ms. Jolicouer",
+    "stucon": "Kiran Koster (kkoster2025@sharonschools.net)",
+    "loc": "Foyer"
+  },
+  {
     "name": "Team Rival",
     "nick": "Team Rival",
     "meetingdays": "Wednesdays, Once a month on Thursday (ACES)",
@@ -960,7 +1010,7 @@ var clublist = [
     "morning": "",
     "desc": "Sharon High School's student-run Newspaper.",
     "adv": "Ms. Ayotte",
-    "stucon": "Amoli Deshpande (adeshpande2026@sharonschools.net), Devin Barker (dbarker2025@sharonschools.net), Julian Hoemke (jhoemke2026@sharonschools.net)",
+    "stucon": "Amoli Deshpande (adeshpande2026@sharonschools.net), Julian Hoemke (jhoemke2026@sharonschools.net)",
     "loc": 2406
   },
   {
@@ -992,14 +1042,14 @@ var clublist = [
   {
     "name": "World Language National Honor Society",
     "nick": "WLNHS",
-    "meetingdays": "Varies",
+    "meetingdays": "7pm, Day varies",
     "type1": "Culture",
     "type2": "",
     "mtg": "o",
     "morning": "",
-    "desc": "WLNHS raises awareness about different world cultures.",
+    "desc": "The WLNHS strives to educate future and current high school students about different cultures and languages in order to better connect them to the global community and to broaden their understanding of the world in which they live. Activities: Culture Fair, Literary magazine (Polylingua), peer tutoring, teaching at elementary schools, fundraisers, cultural events",
     "adv": "Sr. Brillant",
-    "stucon": "Zach Posternak (zposternak2024@sharonschools.net)",
+    "stucon": "Zach Posternak (zposternak2024@sharonschools.net), Avani Pai (apai2024@sharonschools.net)",
     "loc": "Zoom"
   },
   {
@@ -1014,18 +1064,5 @@ var clublist = [
     "adv": "Mme O'Meara",
     "stucon": "Annika Amrhein (aamrhein2024@sharonschools.net)",
     "loc": 1504
-  },
-  {
-    "name": "Youth Investing",
-    "nick": "Youth Investing",
-    "meetingdays": "Wednesdays",
-    "type1": "Pre-Professional",
-    "type2": "",
-    "mtg": "w",
-    "morning": "",
-    "desc": "Learn the fundamentals of investing, business making, budgeting, and decision-making in our club. Explore strategies to grow your wealth and secure your financial future.",
-    "adv": "Mr. Sanborn",
-    "stucon": "Gaurav Gopakumar Nair (gnair2025@sharonschools.net), Ruhan Sah (rsah2025@sharonschools.net)",
-    "loc": 2410
   }
 ]
