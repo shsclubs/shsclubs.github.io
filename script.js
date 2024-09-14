@@ -10,6 +10,7 @@
   }
 });*/
 
+import clubList from "clubList.js";
 
 urlToCat = {
   "Athletic": "athletic",
@@ -26,13 +27,33 @@ urlToCat = {
   "Visual": "visualArts"
 }
 
-function populateClubs(day){
+/*function populateClubs(day){
   dayId = day + "aclubs"
   aft = document.getElementById(dayId)
   for (i =0; i<clublist.length; i++){
     let club = clublist[i]
     if (club.mtg === day){
         aft.innerHTML += ("<a href=\"" + urlToCat[club.type1] + "#" + club.nick + "\">" + club.name + " (" + club.loc + ")</a><br>")
+    }
+  }
+}*/
+
+function populateClubs(day) {
+  const dayId = day + "aclubs";
+  const aft = document.getElementById(dayId);
+  for (let i = 0; i < clubList.length; i++) {
+    let club = clubList[i];
+    if (club.mtg === day) {
+      aft.innerHTML +=
+        '<a href="clubs.html?category=' +
+        club.type1 +
+        "#" +
+        club.nick +
+        '">' +
+        club.name +
+        " (" +
+        club.loc +
+        ")</a><br>";
     }
   }
 }
