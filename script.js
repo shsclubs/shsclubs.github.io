@@ -10,34 +10,6 @@
   }
 });*/
 
-import clubList from "clubList.js";
-
-urlToCat = {
-  "Athletic": "athletic",
-  "Culture": "culturalAndIdentity",
-  "Entertainment": "entertainment",
-  "Health": "health",
-  "Humanities": "humanities",
-  "Leadership": "leadershipspeaking",
-  "Misc": "miscellaneous",
-  "Performing": "performingArts",
-  "Pre-Professional": "preprofessional",
-  "Social Change": "socialChange",
-  "STEM": "stem",
-  "Visual": "visualArts"
-}
-
-/*function populateClubs(day){
-  dayId = day + "aclubs"
-  aft = document.getElementById(dayId)
-  for (i =0; i<clublist.length; i++){
-    let club = clublist[i]
-    if (club.mtg === day){
-        aft.innerHTML += ("<a href=\"" + urlToCat[club.type1] + "#" + club.nick + "\">" + club.name + " (" + club.loc + ")</a><br>")
-    }
-  }
-}*/
-
 function populateClubs(day) {
   const dayId = day + "aclubs";
   const aft = document.getElementById(dayId);
@@ -58,12 +30,12 @@ function populateClubs(day) {
   }
 }
 
-populateClubs("m")
-populateClubs("t")
-populateClubs("w")
-populateClubs("h")
-populateClubs("f")
-populateClubs("o")
+populateClubs("m");
+populateClubs("t");
+populateClubs("w");
+populateClubs("h");
+populateClubs("f");
+populateClubs("o");
 
 document.getElementById("ma").addEventListener("click", matoggle);
 

@@ -1,5 +1,3 @@
-import clubList, { convertCategoryNameToPrettyName } from "clubList.js";
-
 const pageName = document.getElementById("page-name");
 const pageDescription = document.getElementById("page-description");
 const clubDiv = document.getElementById("clubs");
@@ -44,9 +42,6 @@ function buildPage() {
     if (club.type1 === category || club.type2 === category) {
       addClub(club, (clubsOnPage + 1) % 2 === 0);
       clubsOnPage += 1;
-    } else if (club.type2 === category) {
-      addClub(club, (clubsOnPage + 1) % 2 === 0);
-      clubsOnPage += 1;
     }
   }
 }
@@ -56,6 +51,39 @@ function getCategoryFromURL() {
   const urlParams = new URLSearchParams(queryString);
   const category = urlParams.get("category");
   return category;
+}
+
+function convertCategoryNameToPrettyName(category) {
+    switch (category) {
+      case "Academic":
+        return "Academics";
+      case "Culture":
+        return "Culture and Identity";
+      case "Performing":
+        return "Performing Arts";
+      case "Visual":
+        return "Visual Arts";
+      case "SocialChange":
+        return "Social Change";
+      case "Leadership":
+        return "Leadership & Speaking";
+      case "Pre-Professional":
+        return "Pre-Professional";
+      case "Athletic":
+        return "Athletics";
+      case "Entertainment":
+        return "Entertainment";
+      case "Health":
+        return "Health & Medicine";
+      case "Humanities":
+        return "Humanities";
+      case "STEM":
+        return "STEM";
+      case "Misc":
+        return "Miscellaneous";
+      default:
+        return "Test";
+    }
 }
 
 document.addEventListener("DOMContentLoaded", function () {
