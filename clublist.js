@@ -1,5 +1,10 @@
-/* 1. Convert csv to json using https://csvjson.com/csv2json 
-   2. Replace the array */
+/**
+ * 1. Covert Google Sheet to csv
+ * 2. Convert csv to json using https://csvjson.com/csv2json 
+ * 3. Replace the array
+ * 
+ * For small changes--add/fix manually
+ */
 
 /**
  * Categories:

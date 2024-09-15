@@ -21,13 +21,13 @@ A collection of clubs at Sharon High School.
 
 ## Board
 
-- President: Apurva Varigonda '24
-- Vice President: Daniela Yablon '25
-- Secretary/Treasurer: Jenny Sand '25
+- Co-President: Jenny Sand '25
+- Co-President: Daniela Yablon '25
+- Secretary/Treasurer: Ankita Varigonda '25
 - Communications Director: Jessica Li '26
+- President (2022-24): Apurva Varigonda '24
 - President (2020-22): Zoe Plumridge '22
 - Vice President (2020-22): Arthi Vijayakumar '22
-- Communications Director (2022-23): Ankita Varigonda '25
 
 ## Members & Contributors
 

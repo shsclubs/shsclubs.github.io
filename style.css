@@ -25,12 +25,12 @@ button:hover {
 .update, footer {
   margin-right: 10%;
   margin-left:10%;
-  margin-top:40px;
+  margin-top:30px;
   margin-bottom: 10px;
   border-radius: 8px;
   color: white;
   background-color: maroon;
-  padding: 10px;
+  padding: 20px;
 }
 
 #clubSchedule {
@@ -196,11 +196,6 @@ footer a, footer a:visited, footer a:hover, footer .links, .update a, .update a:
   color: maroon;
   padding: 6px;
   border-radius: 3px;
-}
-
-.icon-chevron-up, .icon-chevron-down {
-  margin-left: 5px;
-  margin-right: 5px;
 }
 
 .collapsed {
