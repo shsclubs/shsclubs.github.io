@@ -20,7 +20,7 @@ function addClub(club, odd) {
     "<p><strong>Meeting Days:</strong> " + club.meetingdays + "</p>";
   let loc = "<p><strong>Location:</strong> " + club.loc + "</p>";
   let text =
-    `<div ${odd ? 'class="odd-club club"' : "club"}>` +
+    `<div ${odd ? 'class="odd-club club"' : 'class="club"'}>` +
     name +
     desc +
     adv +

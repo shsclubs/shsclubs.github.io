@@ -6,19 +6,15 @@ A collection of clubs at Sharon High School.
 
 ## Table of Contents
 
-- [Academic](https://shsclubs.github.io/academic)
 - [Athletic](https://shsclubs.github.io/athletic)
 - [Cultural and Identity](https://shsclubs.github.io/culturalAndIdentity)
 - [Entertainment](https://shsclubs.github.io/entertainment)
 - [Health](https://shsclubs.github.io/health)
 - [Humanities](https://shsclubs.github.io/humanities)
 - [Leadership](https://shsclubs.github.io/leadership)
-- [Leadership Speaking](https://shsclubs.github.io/leadershipspeaking)
-- [Literature](https://shsclubs.github.io/literature)
 - [Miscellaneous](https://shsclubs.github.io/miscellaneous)
 - [Performing Arts](https://shsclubs.github.io/performingArts)
 - [Pre-Professional](https://shsclubs.github.io/preprofessional)
-- [Public Speaking](https://shsclubs.github.io/publicSpeaking)
 - [Social Change](https://shsclubs.github.io/socialChange)
 - [STEM](https://shsclubs.github.io/stem)
 - [Visual Arts](https://shsclubs.github.io/visualArts)
@@ -50,3 +46,6 @@ A collection of clubs at Sharon High School.
 - Sanjana Sanooj '27
 - Zaara Ahmad '27
 - Zoe Guo '27
+
+## From Web Dev Club!
+- Maksim Straus '25
