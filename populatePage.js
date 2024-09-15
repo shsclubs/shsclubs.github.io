@@ -4,12 +4,13 @@ const pageName = document.getElementById("page-name");
 const pageDescription = document.getElementById("page-description");
 const clubDiv = document.getElementById("clubs");
 const buttonDiv = document.getElementById("buttons");
+const clubFooter = document.getElementById("clubFooter");
 
 function updatePageNameAndDescription(category) {
     const prettyName = convertCategoryNameToPrettyName(category);
     
     //changes the webpage title
-    title.innerHTML = prettyName;
+    title.innerHTML = "SHS Clubs > " + prettyName;
     pageName.innerHTML = prettyName;
     pageDescription.innerHTML = "Clubs to learn about " + prettyName + ".";
 }
@@ -47,6 +48,8 @@ function buildPage() {
             clubsOnPage += 1;
         }
     }
+
+    clubFooter.style.display = 'block';
 }
 
 function getCategoryFromURL() {
