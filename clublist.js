@@ -4,56 +4,26 @@
 /**
  * Categories:
  * Academic
- * Cultural and Identity
- * Performing Arts
- * Visual Arts
- * Literature
- * Social Change
- * Public Speaking
+ * Culture
+ * Performing
+ * Visual
+ * SocialChange
  * Leadership
- * Pre-professional
+ * Pre-Professional
  * Athletic
  * Entertainment
- * Miscellaneous
+ * Health
+ * Humanities
+ * STEM
+ * Misc
  */
 
-export function convertCategoryNameToPrettyName(category) {
-  switch (category) {
-    case "Academic":
-      return "Academics";
-    case "Cultural and Identity":
-      return "Culture and Identity";
-    case "Performing Arts":
-      return "Performing Arts";
-    case "Visual Arts":
-      return "Visual Arts";
-    case "Literature":
-      return "Literature";
-    case "Social Change":
-      return "Social Change";
-    case "Public Speaking":
-      return "Public Speaking";
-    case "Leadership":
-      return "Leadership";
-    case "Pre-professional":
-      return "Pre-professional";
-    case "Athletic":
-      return "Athletics";
-    case "Entertainment":
-      return "Entertainment";
-    case "Miscellaneous":
-      return "Miscellaneous";
-    default:
-      return "Miscellaneous";
-  }
-}
-
-const clublist = [
+var clubList = [
   {
     "name": "American Civil Liberties Union",
     "nick": "ACLU",
     "meetingdays": "Mondays",
-    "type1": "Social Change",
+    "type1": "SocialChange",
     "type2": "",
     "mtg": "m",
     "morning": "",
@@ -79,7 +49,7 @@ const clublist = [
     "name": "Anti-Defamation League",
     "nick": "ADL Club",
     "meetingdays": "Tuesdays",
-    "type1": "Social Change",
+    "type1": "SocialChange",
     "type2": "",
     "mtg": "t",
     "morning": "",
@@ -106,7 +76,7 @@ const clublist = [
     "nick": "ASU",
     "meetingdays": "Mondays",
     "type1": "Culture",
-    "type2": "Social Change",
+    "type2": "SocialChange",
     "mtg": "m",
     "morning": "",
     "desc": "ASU is a place where we spread awareness and celebrate different heritages and cultures through food, games, and more!",
@@ -119,7 +89,7 @@ const clublist = [
     "nick": "BSU",
     "meetingdays": "Fridays (ACES)",
     "type1": "Culture",
-    "type2": "Social Change",
+    "type2": "SocialChange",
     "mtg": "f",
     "morning": 1,
     "desc": "We hope to develop an expansive network and platform that empowers our community, but also promotes solidarity beyond the doors of Sharon High.",
@@ -170,7 +140,7 @@ const clublist = [
     "name": "Care4Kiddos",
     "nick": "Care4Kiddos",
     "meetingdays": "Tuesdays",
-    "type1": "Social Change",
+    "type1": "SocialChange",
     "type2": "",
     "mtg": "t",
     "morning": "",
@@ -196,7 +166,7 @@ const clublist = [
     "name": "Children Helping Children",
     "nick": "Children Helping Children",
     "meetingdays": "First Tuesday of each month",
-    "type1": "Social Change",
+    "type1": "SocialChange",
     "type2": "",
     "mtg": "t",
     "morning": "",
@@ -391,7 +361,7 @@ const clublist = [
     "name": "Environmental Club",
     "nick": "Environmental Club",
     "meetingdays": "Mondays",
-    "type1": "Social Change",
+    "type1": "SocialChange",
     "type2": "",
     "mtg": "m",
     "morning": "",
@@ -456,7 +426,7 @@ const clublist = [
     "name": "Girls Learn International",
     "nick": "GLI",
     "meetingdays": "Wednesdays",
-    "type1": "Social Change",
+    "type1": "SocialChange",
     "type2": "",
     "mtg": "w",
     "morning": "",
@@ -470,7 +440,7 @@ const clublist = [
     "nick": "GWC",
     "meetingdays": "Thursdays",
     "type1": "STEM",
-    "type2": "Social Change",
+    "type2": "SocialChange",
     "mtg": "h",
     "morning": "",
     "desc": "Girls Who Code provides a safe space for girls/nonbinary people to learn to code and raise awareness about the gender gap in tech.",
@@ -483,7 +453,7 @@ const clublist = [
     "nick": "Hearts & Crafts",
     "meetingdays": "Thursdays",
     "type1": "Visual",
-    "type2": "Social Change",
+    "type2": "SocialChange",
     "mtg": "t",
     "morning": "",
     "desc": "Hearts and Crafts works to help our community by creating, selling, and donating crafts to raise funds and awareness for local charities and community organizations.",
@@ -534,7 +504,7 @@ const clublist = [
     "name": "Homeless Help",
     "nick": "Homeless Help",
     "meetingdays": "Mondays",
-    "type1": "Social Change",
+    "type1": "SocialChange",
     "type2": "",
     "mtg": "m",
     "morning": "",
@@ -573,7 +543,7 @@ const clublist = [
     "name": "Key Club",
     "nick": "Key Club",
     "meetingdays": "Every other Friday morning",
-    "type1": "Social Change",
+    "type1": "SocialChange",
     "type2": "",
     "mtg": "f",
     "morning": 1,
@@ -678,7 +648,7 @@ const clublist = [
     "nick": "MSA",
     "meetingdays": "Tuesdays",
     "type1": "Culture",
-    "type2": "Social Change",
+    "type2": "SocialChange",
     "mtg": "t",
     "morning": "",
     "desc": "We are a club focused on creating a space for Muslim students and staff at SHS. Beyond that, our club also work to fundraise, host events, donate to charity, and raise awareness for causes involving Muslims.",
@@ -729,7 +699,7 @@ const clublist = [
     "name": "Philanthropy Club",
     "nick": "Philanthropy",
     "meetingdays": "Every 2nd, 3rd, 4th Friday each month",
-    "type1": "Social Change",
+    "type1": "SocialChange",
     "type2": "",
     "mtg": "f",
     "morning": "",
@@ -781,7 +751,7 @@ const clublist = [
     "name": "Pretty Tough: Girls Empowered",
     "nick": "Pretty Tough",
     "meetingdays": "Mondays",
-    "type1": "Social Change",
+    "type1": "SocialChange",
     "type2": "",
     "mtg": "m",
     "morning": "",
@@ -859,7 +829,7 @@ const clublist = [
     "name": "Serving for Sharon",
     "nick": "Serving 4 Sharon",
     "meetingdays": "Wednesdays",
-    "type1": "Social Change",
+    "type1": "SocialChange",
     "type2": "",
     "mtg": "w",
     "morning": "",
@@ -924,7 +894,7 @@ const clublist = [
     "name": "Spanish Volunteer Club",
     "nick": "Spanish Volunteer",
     "meetingdays": "Tuesdays",
-    "type1": "Social Change",
+    "type1": "SocialChange",
     "type2": "",
     "mtg": "t",
     "morning": "",
@@ -989,7 +959,7 @@ const clublist = [
     "name": "Team Rival",
     "nick": "Team Rival",
     "meetingdays": "Wednesdays, Once a month on Thursday (ACES)",
-    "type1": "Social Change",
+    "type1": "SocialChange",
     "type2": "",
     "mtg": "h",
     "morning": 1,
@@ -1055,7 +1025,7 @@ const clublist = [
     "nick": "Y We LeaD",
     "meetingdays": "Mondays",
     "type1": "Leadership",
-    "type2": "Social Change",
+    "type2": "SocialChange",
     "mtg": "m",
     "morning": "",
     "desc": "Join Y We LeaD, the Young Women's Leadership Development Initiative, to promote women's leadership and develop your leadership skills! We led the Equal Pay Day Campaign last year and a trivia-style class meeting to educate about gender inequality in leadership. During meetings, we did leadership activities, elevator speeches, read, and watched Ted Talks. Come to room 1504 after school Mondays. All are welcome.",
@@ -1078,4 +1048,4 @@ const clublist = [
   }
 ]
 
-export default clubList;
+//export default clubList;
