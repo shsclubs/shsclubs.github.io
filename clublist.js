@@ -879,8 +879,8 @@ var clubList = [
     "morning": "",
     "desc": "Become a part of our passionate community and embrace the exhilarating essence of Slavic culture! Enjoy engaging activities such as the дурак card game, celebrate Slavic holidays like Новый Год, raise money for Ukraine through bake sales, and more!",
     "adv": "Ms. Macoritto",
-    "stucon": "Anna Voronova (avoronova2024@sharonschools.net), David Mitkov (dmitkov2025@sharonschools.net), Maksim Straus (mstraus2025@sharonschools.net)",
-    "loc": 2407
+    "stucon": "Maksim Straus (mstraus2025@sharonschools.net), Dante Gorostovich (dgorostovich2025@sharonschools.net), Maya Zaretsky (mzaretsky2027@sharonschools.net)",
+    "loc": 1408
   },
   {
     "name": "Soda Club",
