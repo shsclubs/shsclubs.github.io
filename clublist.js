@@ -1,11 +1,34 @@
-/* 1. Convert csv to json using https://csvjson.com/csv2json 
-   2. Replace the array */
-var clublist = [
+/**
+ * 1. Covert Google Sheet to csv
+ * 2. Convert csv to json using https://csvjson.com/csv2json 
+ * 3. Replace the array
+ * 
+ * For small changes--add/fix manually
+ */
+
+/**
+ * Categories:
+ * Academic
+ * Culture
+ * Performing
+ * Visual
+ * SocialChange
+ * Leadership
+ * Pre-Professional
+ * Athletic
+ * Entertainment
+ * Health
+ * Humanities
+ * STEM
+ * Misc
+ */
+
+var clubList = [
   {
     "name": "American Civil Liberties Union",
     "nick": "ACLU",
     "meetingdays": "Mondays",
-    "type1": "Social Change",
+    "type1": "SocialChange",
     "type2": "",
     "mtg": "m",
     "morning": "",
@@ -31,7 +54,7 @@ var clublist = [
     "name": "Anti-Defamation League",
     "nick": "ADL Club",
     "meetingdays": "Tuesdays",
-    "type1": "Social Change",
+    "type1": "SocialChange",
     "type2": "",
     "mtg": "t",
     "morning": "",
@@ -58,7 +81,7 @@ var clublist = [
     "nick": "ASU",
     "meetingdays": "Mondays",
     "type1": "Culture",
-    "type2": "Social Change",
+    "type2": "SocialChange",
     "mtg": "m",
     "morning": "",
     "desc": "ASU is a place where we spread awareness and celebrate different heritages and cultures through food, games, and more!",
@@ -71,7 +94,7 @@ var clublist = [
     "nick": "BSU",
     "meetingdays": "Fridays (ACES)",
     "type1": "Culture",
-    "type2": "Social Change",
+    "type2": "SocialChange",
     "mtg": "f",
     "morning": 1,
     "desc": "We hope to develop an expansive network and platform that empowers our community, but also promotes solidarity beyond the doors of Sharon High.",
@@ -122,7 +145,7 @@ var clublist = [
     "name": "Care4Kiddos",
     "nick": "Care4Kiddos",
     "meetingdays": "Tuesdays",
-    "type1": "Social Change",
+    "type1": "SocialChange",
     "type2": "",
     "mtg": "t",
     "morning": "",
@@ -148,7 +171,7 @@ var clublist = [
     "name": "Children Helping Children",
     "nick": "Children Helping Children",
     "meetingdays": "First Tuesday of each month",
-    "type1": "Social Change",
+    "type1": "SocialChange",
     "type2": "",
     "mtg": "t",
     "morning": "",
@@ -343,7 +366,7 @@ var clublist = [
     "name": "Environmental Club",
     "nick": "Environmental Club",
     "meetingdays": "Mondays",
-    "type1": "Social Change",
+    "type1": "SocialChange",
     "type2": "",
     "mtg": "m",
     "morning": "",
@@ -408,7 +431,7 @@ var clublist = [
     "name": "Girls Learn International",
     "nick": "GLI",
     "meetingdays": "Wednesdays",
-    "type1": "Social Change",
+    "type1": "SocialChange",
     "type2": "",
     "mtg": "w",
     "morning": "",
@@ -422,7 +445,7 @@ var clublist = [
     "nick": "GWC",
     "meetingdays": "Thursdays",
     "type1": "STEM",
-    "type2": "Social Change",
+    "type2": "SocialChange",
     "mtg": "h",
     "morning": "",
     "desc": "Girls Who Code provides a safe space for girls/nonbinary people to learn to code and raise awareness about the gender gap in tech.",
@@ -435,7 +458,7 @@ var clublist = [
     "nick": "Hearts & Crafts",
     "meetingdays": "Thursdays",
     "type1": "Visual",
-    "type2": "Social Change",
+    "type2": "SocialChange",
     "mtg": "t",
     "morning": "",
     "desc": "Hearts and Crafts works to help our community by creating, selling, and donating crafts to raise funds and awareness for local charities and community organizations.",
@@ -486,7 +509,7 @@ var clublist = [
     "name": "Homeless Help",
     "nick": "Homeless Help",
     "meetingdays": "Mondays",
-    "type1": "Social Change",
+    "type1": "SocialChange",
     "type2": "",
     "mtg": "m",
     "morning": "",
@@ -525,7 +548,7 @@ var clublist = [
     "name": "Key Club",
     "nick": "Key Club",
     "meetingdays": "Every other Friday morning",
-    "type1": "Social Change",
+    "type1": "SocialChange",
     "type2": "",
     "mtg": "f",
     "morning": 1,
@@ -630,7 +653,7 @@ var clublist = [
     "nick": "MSA",
     "meetingdays": "Tuesdays",
     "type1": "Culture",
-    "type2": "Social Change",
+    "type2": "SocialChange",
     "mtg": "t",
     "morning": "",
     "desc": "We are a club focused on creating a space for Muslim students and staff at SHS. Beyond that, our club also work to fundraise, host events, donate to charity, and raise awareness for causes involving Muslims.",
@@ -681,7 +704,7 @@ var clublist = [
     "name": "Philanthropy Club",
     "nick": "Philanthropy",
     "meetingdays": "Every 2nd, 3rd, 4th Friday each month",
-    "type1": "Social Change",
+    "type1": "SocialChange",
     "type2": "",
     "mtg": "f",
     "morning": "",
@@ -733,7 +756,7 @@ var clublist = [
     "name": "Pretty Tough: Girls Empowered",
     "nick": "Pretty Tough",
     "meetingdays": "Mondays",
-    "type1": "Social Change",
+    "type1": "SocialChange",
     "type2": "",
     "mtg": "m",
     "morning": "",
@@ -811,7 +834,7 @@ var clublist = [
     "name": "Serving for Sharon",
     "nick": "Serving 4 Sharon",
     "meetingdays": "Wednesdays",
-    "type1": "Social Change",
+    "type1": "SocialChange",
     "type2": "",
     "mtg": "w",
     "morning": "",
@@ -876,7 +899,7 @@ var clublist = [
     "name": "Spanish Volunteer Club",
     "nick": "Spanish Volunteer",
     "meetingdays": "Tuesdays",
-    "type1": "Social Change",
+    "type1": "SocialChange",
     "type2": "",
     "mtg": "t",
     "morning": "",
@@ -941,7 +964,7 @@ var clublist = [
     "name": "Team Rival",
     "nick": "Team Rival",
     "meetingdays": "Wednesdays, Once a month on Thursday (ACES)",
-    "type1": "Social Change",
+    "type1": "SocialChange",
     "type2": "",
     "mtg": "h",
     "morning": 1,
@@ -1007,7 +1030,7 @@ var clublist = [
     "nick": "Y We LeaD",
     "meetingdays": "Mondays",
     "type1": "Leadership",
-    "type2": "Social Change",
+    "type2": "SocialChange",
     "mtg": "m",
     "morning": "",
     "desc": "Join Y We LeaD, the Young Women's Leadership Development Initiative, to promote women's leadership and develop your leadership skills! We led the Equal Pay Day Campaign last year and a trivia-style class meeting to educate about gender inequality in leadership. During meetings, we did leadership activities, elevator speeches, read, and watched Ted Talks. Come to room 1504 after school Mondays. All are welcome.",
@@ -1029,3 +1052,5 @@ var clublist = [
     "loc": 2410
   }
 ]
+
+//export default clubList;

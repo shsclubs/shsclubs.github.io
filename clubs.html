@@ -4,14 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>About Us</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link rel="shortcut icon" type="image/png" href="assets/shslogo2.png" />
 </head>
 
 <body>
-
-  <a name="backtotop"></a>
+  <a id="backtotop"></a>
 
   <!-- Navigation Bar -->
   <nav>
@@ -31,53 +29,29 @@
   </nav>
 
   <main class="main">
+    <title id="title">Clubs</title>
 
     <!-- Mobile Navigation Bar -->
     <div class="mobileNav">
-    <a href="index.html"><img id="eagle" src="assets/shsLogo.png"></a>
+      <a href="index.html"><img id="eagle" src="assets/shsLogo.png"></a>
     </div>
 
-    <h1>About Us</h1>
-    <p>Everyone who has contributed to this website or any of our other projects!</p>
+    <!-- Holds the club category and its description -->
+    <h1 id="page-name"></h1>
+    <p id="page-description"></p>
+    <h2>Clubs on this page: </h2>
     
-    <h2>Board: </h2>
-    <p>
-      <strong>Co-President: </strong> Jenny Sand '25<br>
-      <strong>Co-President: </strong>Daniela Yablon '25<br>
-      <strong>Secretary/Treasurer: </strong>Ankita Varigonda '25<br>
-      <strong>Communications Director: </strong> Jessica Li '26<br>
-      <strong>President (2022-24): </strong> Apurva Varigonda '24<br>
-      <strong>President (2020-22): </strong> Zoe Plumridge '22<br>
-      <strong>Vice President (2020-22): </strong>Arthi Vijayakumar '22<br>
-    </p>
+    <!-- Buttons to clubs will generate here-->
+    <div id="buttons"></div>
 
-    <h2>Members & Contributors: </h2>
-    <p>
-      Veena Krishnan '22<br>
-      Yeonhee Lee '24<br>
-      Anna Voronova '24<br>
-      Gabrielle Sufrin '24<br>
-      Emily Zhang '25<br>
-      Marena Chen '25<br>
-      Emma Liu '26<br>
-      Saachi Badgi '26<br>
-      Unnimaya Sajeev '26<br>
-      Anvi Sarmah '27<br>
-      Eesha Agarwal '27<br>
-      Sampreetha Sriram '27<br>
-      Sanjana Sanooj '27<br>
-      Zaara Ahmad '27<br>
-      Zoe Guo '27<br>
-    </p>
+    <!-- Clubs will generate here -->
+    <div id="clubs"></div>
 
-    <h2>From Web Dev Club!</h2>
-    <p>Maksim Straus '25</p>
-  
     <!--Back to Top Button -->
     <a href="#backtotop"><button id="myBtn"><strong>⌃</strong></button></a>
 
     <!-- Footer -->
-    <footer>
+    <footer id="clubFooter" style="display:none">
         <p>
           <em>This website is brought to you by the Girls Who Code club of Sharon High School, 2020-2021 and 2023-2024.</em><br><br>
         
@@ -88,9 +62,10 @@
     </footer>
 
   </main>
-  
+
   <!-- Calls JavaScript Files -->
-  <script src="script.js"></script>
+  <script type="text/javascript" src="clublist.js"></script>
+  <script type="text/javascript" src="populatePage.js"></script>
 
 </body>
 </html>

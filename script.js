@@ -1,48 +1,26 @@
-//An example of how to do dropdown menus
+// adds clubs to schedule on index.html
+function populateClubs(day) {
+  const dayId = day + "aclubs";
+  const aft = document.getElementById(dayId);
 
-/*$("#button-container button").on("click", function(event) {
-  if (isHidden) {
-    hiddenBox.show();
-    isHidden=false;
-  }else{
-    hiddenBox.hide();
-    isHidden=true;
-  }
-});*/
-
-
-urlToCat = {
-  "Athletic": "athletic",
-  "Culture": "culturalAndIdentity",
-  "Entertainment": "entertainment",
-  "Health": "health",
-  "Humanities": "humanities",
-  "Leadership": "leadershipspeaking",
-  "Misc": "miscellaneous",
-  "Performing": "performingArts",
-  "Pre-Professional": "preprofessional",
-  "Social Change": "socialChange",
-  "STEM": "stem",
-  "Visual": "visualArts"
-}
-
-function populateClubs(day){
-  dayId = day + "aclubs"
-  aft = document.getElementById(dayId)
-  for (i =0; i<clublist.length; i++){
-    let club = clublist[i]
-    if (club.mtg === day){
-        aft.innerHTML += ("<a href=\"" + urlToCat[club.type1] + "#" + club.nick + "\">" + club.name + " (" + club.loc + ")</a><br>")
+  //iterates through all clubs and adds them if they match the day
+  for (let i = 0; i < clubList.length; i++) {
+    let club = clubList[i];
+    if (club.mtg === day) {
+      aft.innerHTML += '<a href="clubs.html?category=' + club.type1 + "#" + club.nick + '">' + club.name + " (" + club.loc + ")</a><br>";
     }
   }
 }
 
-populateClubs("m")
-populateClubs("t")
-populateClubs("w")
-populateClubs("h")
-populateClubs("f")
-populateClubs("o")
+//adds clubs in the schedule for all meeting days
+populateClubs("m");
+populateClubs("t");
+populateClubs("w");
+populateClubs("h");
+populateClubs("f");
+populateClubs("o");
+
+//controls the collapasables
 
 document.getElementById("ma").addEventListener("click", matoggle);
 

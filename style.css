@@ -25,12 +25,12 @@ button:hover {
 .update, footer {
   margin-right: 10%;
   margin-left:10%;
-  margin-top:10px;
+  margin-top:30px;
   margin-bottom: 10px;
   border-radius: 8px;
   color: white;
   background-color: maroon;
-  padding: 10px;
+  padding: 20px;
 }
 
 #clubSchedule {
@@ -163,12 +163,16 @@ footer a, footer a:visited, footer a:hover, footer .links, .update a, .update a:
 }
 
 #myBtn {
+  font-size: 25px;
   position: fixed;
   bottom: 10px;
   right: 10px;
   z-index: 1;
   cursor: pointer;
-  padding: 12px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
   border-radius: 4px;
   display: block;
   background-color: gold;
@@ -194,15 +198,21 @@ footer a, footer a:visited, footer a:hover, footer .links, .update a, .update a:
   border-radius: 3px;
 }
 
-.icon-chevron-up, .icon-chevron-down {
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
 .collapsed {
   display: none !important;
 }
 
 p a, p a:hover, p a:visited {
   color: maroon;
+}
+
+.club {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.odd-club {
+  background-color: #f6f6f6;
 }
