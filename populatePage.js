@@ -11,7 +11,7 @@ function updatePageNameAndDescription(category) {
     
     //changes the webpage title
     title.innerHTML = "SHS Clubs > " + prettyName;
-    pageName.innerHTML = prettyName;
+    pageName.innerHTML = prettyName + " Clubs";
     pageDescription.innerHTML = "Clubs to learn about " + prettyName + ".";
 }
 
